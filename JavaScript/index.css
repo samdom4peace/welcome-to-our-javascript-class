@@ -1,0 +1,73 @@
+/* HTML */
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height:  1.9;
+    overflow-x: hidden;
+}
+/* End HTML */
+
+/* Body */
+body{
+    margin: 0;
+    font-family: 'Times New Roman', 'David', 'Bell MT';
+    font-size: 25px; 
+    line-height: 1.9; 
+    background-color: cornsilk;
+}
+/* End Body */
+
+/* Header */
+header{
+    background-color: cyan;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/* End Header */
+
+/* Headings */
+h1{
+    font-family: 'Times New Roman', 'David', 'Bell MT';
+    text-align: center;
+}
+/* End Headings */
+
+/* Form Elements */
+input[type=text]{
+    font-family: 'Bell MT', 'David', 'Times New Roman';
+    font-size: 30px;
+    border: 2px solid gold;
+    border-radius: 7px;
+    width: 25%;
+    text-align: center;
+    padding: 7px;
+}
+
+button, input[type=reset]{
+    cursor: pointer;
+    font-family: 'Bell MT', 'David', 'Times New Roman';
+    font-size: 25px;
+    background-color: linen;
+    border: 2px solid gold;
+    border-radius: 7px;
+    width: 14%;
+    text-align: center;
+    padding: 7px;
+}
+/* End Form Elements */
+
+/* Paragraph */ 
+p{
+    margin-left: 30px;
+}
+/* End Paragraph */
+
+/* ID of the output */
+#welcomeMessage{
+    color: darkblue;
+    font-size: 60px;
+    font-family: 'David', 'Times New Roman', 'Bell MT';
+    text-align: center;
+}

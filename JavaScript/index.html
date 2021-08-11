@@ -1,0 +1,52 @@
+<!DOCTYPE html>         <!-- As at today: 08/04/2021; this must be the first line of code: on Line 1 -->    
+<html lang="en">            <!-- The language used is English Language -->
+
+<!-- The head element -->
+<!-- For our course, these must be the minimum requirements for the head element -->
+<head>
+    <meta charset="utf-8">
+
+    <!-- Maximum of 50 characters including spaces for the title. -->
+    <title>Module 1: Introduction to JavaScript</title> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="HTML, Hypertext Markup Language, CSS, Cascading Style Sheet, JavaScript, 
+    Web Scripting, Client-side scripting, front-end development" />
+    
+    <!-- Maximum of 160 characters including spaces or 25 words for the description. -->
+    <meta name="description" content="Samuel Dominic Chukwuemeka is teaching the course: 
+    Web Scripting I at Kent State University for the Fall semester 2021. Let us work together for success." />
+
+    <!-- Link the external style sheet: index.css -->
+    <link href="index.css" rel="stylesheet" type="text/css" media="all"> 
+</head>
+<!-- End the head element -->
+
+<!-- The body element -->
+<body>
+
+    <!-- Header (Not the Head. It is different from the head.) -->
+    <header>
+        <h1>Welcome to Web Scripting I</h1>
+    </header>
+    <!-- End Header -->
+
+    <!-- Ask each student to enter the first name -->
+    <form id="welcome">
+        <p>
+            <label for="firstName">Please enter your first name:</label> <br>
+            <input type="text" id="firstName" name="firstName" autocomplete="off" required> <br><br>
+            <button type="submit" onclick="welcome()">Sign in to Class</button>
+            <button type="reset" onclick="erase()">Clear</button>
+        </p>
+        <div id="welcomeMessage"></div>
+    </form> 
+
+    <!-- Link the external JavaScript file: index.js -->
+    <script src="index.js"></script>
+
+</body>
+<!-- End the body element -->
+
+</html>
