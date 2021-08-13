@@ -27,6 +27,12 @@ header{
 }
 /* End Header */
 
+/* Container*/
+.container{
+    padding: 25px 10px;
+}
+/* End Container*/
+
 /* Headings */
 h1{
     font-family: 'Times New Roman', 'David', 'Bell MT';
@@ -71,3 +77,21 @@ p{
     font-family: 'David', 'Times New Roman', 'Bell MT';
     text-align: center;
 }
+
+/* Footer */
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: cyan;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer a:hover{
+    color: red;
+}
+/* End Footer */
